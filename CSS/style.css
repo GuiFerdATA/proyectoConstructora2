@@ -115,8 +115,12 @@ html {
     color: rgb(225, 225,225);
     font-size: 40px;
     letter-spacing: 0.05em;
+    text-decoration: none;
 }
-
+.title-inicio a{
+    color:#ffffff;
+    margin-top: 50px;
+}
 
 /* MEDIA QUERYS */
 
