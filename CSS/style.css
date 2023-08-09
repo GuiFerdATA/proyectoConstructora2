@@ -7,7 +7,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -32,7 +32,8 @@ html {
     align-items: center;
     padding: 15px 20px;
 }
-.contenedor-header header .logo{
+
+.contenedor-header header .logo {
     background-color: rgb(237, 205, 31);
     text-decoration: none;
     display: flex;
@@ -41,7 +42,6 @@ html {
 }
 
 .contenedor-header header .logo a {
-    font-family: Arial,Helvetica,sans-serif;
     font-size: 36px;
     color: #1E2D3B;
     background-color: rgb(237, 205, 31);
@@ -62,11 +62,10 @@ html {
     text-decoration: none;
 }
 
-.contenedor-header header nav ul li a.active, header nav ul li a:hover {
+.contenedor-header header nav ul li a.active,
+header nav ul li a:hover {
     color: rgb(237, 205, 31);
 }
-
-
 
 .nav-responsive {
     background-color: rgb(237, 205, 31);
@@ -78,32 +77,33 @@ html {
 }
 
 /*SECCION INICIO*/
-
-.inicio{
-    min-height: 100vh;
+.inicio {
+    min-height: 93vh;
     position: relative;
 }
-.miVideo{
-    position: absolute;
+
+.miVideo {
+    position: fixed;
     right: 0;
     bottom: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
     mix-blend-mode: overlay;
-    
+
 }
-.capa{
+
+.capa {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color:#1E2D3B;
+    background-color: #1E2D3B;
     opacity: 0.4;
 }
 
-.title-inicio{
+.title-inicio {
     padding-top: 200px;
     display: flex;
     flex-direction: column;
@@ -112,17 +112,88 @@ html {
     margin: auto;
     position: relative;
     z-index: 2;
-    color: rgb(225, 225,225);
+    color: rgb(225, 225, 225);
     font-size: 40px;
     letter-spacing: 0.05em;
     text-decoration: none;
 }
-.title-inicio a{
-    color:rgb(237, 205, 31);
+
+.title-inicio a {
+    color: rgb(237, 205, 31);
     margin-top: 30px;
 }
 
 
+/*SECCION SERVICIO*/
+.contenedor_titulo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 20px;
+    background-color: #ffffff;
+    color: #1E2D3B;
+}
+
+.contenedor_card {
+    background-color: #ffffff;
+    min-height: 80vh;
+    position: relative;
+    display: flex;
+    text-align: center;
+}
+
+.contenedor_cart {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_cart1 p,
+.contenedor_cart2 p,
+.contenedor_cart3 p {
+    margin: 10px 20px;
+    font-size: 20px;
+    padding: 10px 10px;
+    background-color: #f7f7f7;
+}
+
+.contenedor_cart1 h3,
+.contenedor_cart2 h3,
+.contenedor_cart3 h3 {
+    margin: 10px 20px;
+    font-size: 28px;
+    background-color: #f7f7f7;
+    color: #1E2D3B;
+}
+
+.img_cart1 {
+    margin-top: 10px;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+
+}
+
+.img_cart2 {
+    margin-top: 10px;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.img_cart3 {
+    margin-top: 10px;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+}
 
 
 
@@ -158,7 +229,7 @@ html {
     }
 
     /*SECCION INICIO*/
-    .title-inicio{
+    .title-inicio {
         padding-top: 200px;
         display: flex;
         flex-direction: column;
@@ -168,9 +239,9 @@ html {
         margin: auto;
         position: relative;
         z-index: 2;
-        color: rgb(225, 225,225);
+        color: rgb(225, 225, 225);
         font-size: 30px;
         letter-spacing: 0.05em;
-    
+
     }
 }
