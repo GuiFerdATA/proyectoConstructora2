@@ -139,9 +139,13 @@ header nav ul li a:hover {
     justify-content: center;
     text-align: center;
     font-size: 50px;
-    padding: 20px 20px;
+    padding: 20px;
     color: #1E2D3B;
     letter-spacing: 0.05em;
+    background-color: rgb(250, 213, 2);
+    height: 150px;
+    margin-top: 88px;
+    opacity: 0.9;
 }
 
 .contenedor_card {
@@ -149,7 +153,7 @@ header nav ul li a:hover {
     display: flex;
     text-align: center;
     position: relative;
-    min-height: 70vh;
+    min-height: 85vh;
 }
 
 .card {
@@ -175,7 +179,6 @@ header nav ul li a:hover {
     color: #1E2D3B;
     margin-bottom: 5px;
     letter-spacing: 0.05em;
-
 }
 
 .card p {
@@ -187,7 +190,7 @@ header nav ul li a:hover {
 
 
 /*SECCION NOSOTROS*/
-.contenedor_nosotros{
+.contenedor_nosotros {
     background-image: url('../IMG/cart1.jpg');
     background-attachment: fixed;
     background-size: cover;
@@ -195,31 +198,36 @@ header nav ul li a:hover {
     position: absolute;
 
 }
-.contenido-nosotros{
+
+.contenido-nosotros {
     display: flex;
     flex-direction: column;
     text-align: center;
     width: 60%;
     margin: auto;
     position: relative;
-    color:black;
+    color: black;
     font-size: 40px;
     letter-spacing: 0.05em;
     line-height: 1.5;
     text-decoration: none;
     background-color: #1E2D3B;
     margin-top: 120px;
-    opacity: 0.7;
+    opacity: 0.8;
     border-radius: 20px;
 }
-.contenido-nosotros h5{
+
+.contenido-nosotros h5 {
     font-size: 50px;
-    color:rgb(250, 213, 2);
+    background-color: rgb(250, 213, 2);
+    margin: 60px;
+    color: #1E2D3B;
 }
-.contenido-nosotros p{
-    color:#ffffff;
+
+.contenido-nosotros p {
+    color: #ffffff;
     font-size: 30px;
-    margin:20px;
+    margin: 20px;
 }
 
 
@@ -269,14 +277,17 @@ header nav ul li a:hover {
         letter-spacing: 0.05em;
 
     }
+
     .contenedor_titulo {
         font-size: 30px;
     }
+
     .contenedor_card {
         background-color: #ffffff;
-        display:flex;
+        display: flex;
         flex-direction: column;
     }
+
     .contenedor-img img {
         width: 80%;
     }
