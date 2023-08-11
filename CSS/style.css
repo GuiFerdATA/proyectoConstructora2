@@ -159,6 +159,7 @@ header nav ul li a:hover {
 
 .contenedor-img img {
     width: 100%;
+    padding: 10px;
 }
 
 .card h4 {
@@ -222,5 +223,16 @@ header nav ul li a:hover {
         font-size: 30px;
         letter-spacing: 0.05em;
 
+    }
+    .contenedor_titulo {
+        font-size: 30px;
+    }
+    .contenedor_card {
+        background-color: #ffffff;
+        display:flex;
+        flex-direction: column;
+    }
+    .contenedor-img img {
+        width: 60%;
     }
 }
