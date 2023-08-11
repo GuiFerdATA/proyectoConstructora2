@@ -83,7 +83,7 @@ header nav ul li a:hover {
 
 /*SECCION INICIO*/
 .inicio {
-    min-height: 90vh;
+    min-height: 100vh;
     position: relative;
 }
 
@@ -144,7 +144,7 @@ header nav ul li a:hover {
     letter-spacing: 0.05em;
     background-color: rgb(250, 213, 2);
     height: 150px;
-    margin-top: 88px;
+    margin-top: 110px;
     opacity: 0.9;
 }
 
@@ -153,14 +153,15 @@ header nav ul li a:hover {
     display: flex;
     text-align: center;
     position: relative;
-    min-height: 85vh;
+    min-height: 100vh;
 }
-
 .card {
     margin: 20px;
     border-radius: 10px;
     overflow: hidden;
     background-color: #f7f7f7;
+    height: 800px;
+    margin-top: 110px;
 }
 
 .card .contenido-card {
@@ -291,4 +292,5 @@ header nav ul li a:hover {
     .contenedor-img img {
         width: 80%;
     }
+
 }
