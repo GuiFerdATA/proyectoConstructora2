@@ -136,7 +136,7 @@ header nav ul li a:hover {
     background-color: #f8f9fa;
     padding: 20px;
     text-align: center;
-    scroll-margin-top: 3.8em
+    scroll-margin-top: 3.8em;
 }
 
 .card-group{
@@ -157,7 +157,7 @@ header nav ul li a:hover {
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 40px;
 }
 .card-img-top{
