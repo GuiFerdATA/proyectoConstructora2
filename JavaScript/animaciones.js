@@ -15,9 +15,10 @@ window.sr =ScrollReveal();
         origin:'right',
         distance: '-100px',
     });
-    sr.reveal('.contenedor_card', {
+    sr.reveal('.animationtitle', {
         duration: 1700,
-        origin:'right',
-        distance: '-100px',
+        origin:'top',
+        distance: '-20px',
     });
 
+   

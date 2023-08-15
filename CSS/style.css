@@ -131,6 +131,7 @@ header nav ul li a:hover {
 
 /*SECCION SERVICIOS*/
 .contenedor_card{
+    width: auto;
     position: relative;
     min-height: 79vh;
     background-color: #f8f9fa;
@@ -160,10 +161,7 @@ header nav ul li a:hover {
     margin-top: 25px;
     margin-bottom: 40px;
 }
-.card-img-top{
-    padding: 20px;
-    border-radius: 25px;
-}
+
 
 
 
