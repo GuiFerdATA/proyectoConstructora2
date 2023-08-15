@@ -131,7 +131,6 @@ header nav ul li a:hover {
 
 /*SECCION SERVICIOS*/
 .contenedor_card{
-    width: auto;
     position: relative;
     min-height: 79vh;
     background-color: #f8f9fa;
@@ -171,7 +170,7 @@ header nav ul li a:hover {
     background-image: url('../IMG/building-2762319_1920-min-1920x960.jpg');
     background-attachment: fixed;
     background-size: cover;
-    height: 90%;
+    height:92%;
     position: absolute;
 
 }
