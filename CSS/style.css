@@ -205,6 +205,8 @@ header nav ul li a:hover {
     margin: 20px;
 }
 
+
+/*CONTENIDO PROYECTOS*/
 .contenedor_proyectos{
    background-color:#ffffff;
     height:92%;
@@ -220,7 +222,6 @@ header nav ul li a:hover {
     font-size: 60px;
     color:#1E2D3B;
     text-decoration: underline dashed rgb(237, 205, 31) 13px;
-
     opacity: 0.8;
     margin: 20px;
     padding: 15px;
@@ -229,22 +230,21 @@ header nav ul li a:hover {
 .contenido-proyectos p{
     font-size: 19px;
     letter-spacing: 0.05em;
-    
-    
 }
 
-
-
 .contenidoProyectosCard{
-    display: inline-block;
-
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.carousel-inner{
 
 }
 
 
 /* MEDIA QUERYS */
-
-
 @media screen and (max-width: 998px) {
     nav {
         display: none;
