@@ -150,7 +150,7 @@ header nav ul li a:hover {
 }
 
 .contenedor_card h2{
-    text-decoration: underline dashed rgb(237, 205, 31);
+    text-decoration: underline dashed rgb(237, 205, 31) 13px;
     background-color:#f8f9fa;
     color:#1E2D3B;
     font-size: 60px;
@@ -181,7 +181,6 @@ header nav ul li a:hover {
     text-align: center;
     width: 60%;
     margin: auto;
-    color: black;
     font-size: 40px;
     letter-spacing: 0.05em;
     line-height: 1.5;
@@ -206,6 +205,41 @@ header nav ul li a:hover {
     margin: 20px;
 }
 
+.contenedor_proyectos{
+   background-color:#ffffff;
+    height:92%;
+    position: absolute;
+    margin-top: 1000px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items:center ;
+}
+
+.contenido-proyectos h5{
+    font-size: 60px;
+    color:#1E2D3B;
+    text-decoration: underline dashed rgb(237, 205, 31) 13px;
+
+    opacity: 0.8;
+    margin: 20px;
+    padding: 15px;
+
+}
+.contenido-proyectos p{
+    font-size: 19px;
+    letter-spacing: 0.05em;
+    
+    
+}
+
+
+
+.contenidoProyectosCard{
+    display: inline-block;
+
+
+}
 
 
 /* MEDIA QUERYS */
