@@ -452,7 +452,7 @@ footer .arriba {
         flex-direction: column;
         text-align: center;
         width:70%;
-
+    }
     /*SECCION CONTACTO*/
     .contacto .fila {
         display: block;
