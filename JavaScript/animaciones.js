@@ -7,7 +7,7 @@ window.sr =ScrollReveal();
     });
     sr.reveal('.contenedor-header', {
         duration: 2000,
-        origin:'bottom',
+        origin:'left',
         distance: '-100px',
     });
     sr.reveal('.contenido-nosotros', {
@@ -21,7 +21,7 @@ window.sr =ScrollReveal();
         distance: '-20px',
     });
     sr.reveal('.titleAnimado', {
-        duration: 3000,
+        duration: 2500,
         origin:'left',
         distance: '-20px',
     });
