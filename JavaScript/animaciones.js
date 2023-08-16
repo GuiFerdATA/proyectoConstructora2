@@ -21,4 +21,7 @@ window.sr =ScrollReveal();
         distance: '-20px',
     });
 
-   
+    (document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox({alwaysShowClose: true});
+    });

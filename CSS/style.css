@@ -180,15 +180,14 @@ header nav ul li a:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 60%;
+    width: 45%;
     margin: auto;
     font-size: 40px;
     letter-spacing: 0.05em;
     line-height: 1.5;
     text-decoration: none;
     background-color: #1E2D3B;
-    margin-top: 65px;
-    opacity: 0.8;
+    margin-top: 60px;
     border-radius: 20px;
 }
 
@@ -196,7 +195,9 @@ header nav ul li a:hover {
     font-size: 50px;
     background-color: rgb(250, 213, 2);
     color: #1E2D3B;
-    padding: 15px;
+    padding: 5px;
+    opacity: 0.9;
+    margin-top: 30px;
 }
 
 .contenido-nosotros p {
@@ -209,13 +210,14 @@ header nav ul li a:hover {
 /*CONTENIDO PROYECTOS*/
 .contenedor_proyectos{
    background-color:#ffffff;
-    height:92%;
+    height:133%;
     position: absolute;
     margin-top: 900px;
     width: 100%;
     text-align: center;
     justify-content: center;
     align-items:center ;
+    scroll-margin-top: 3.8em;
 }
 
 .contenido-proyectos h5{
@@ -235,9 +237,16 @@ header nav ul li a:hover {
 .contenidoProyectosCard{
     position: relative;
     display: flex;
-
     justify-content: center;
 }
+
+
+
+.titleGaleria{
+    color:#1E2D3B;
+    letter-spacing: 0.05em;
+}
+
 
 
 
