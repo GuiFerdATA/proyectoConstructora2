@@ -137,7 +137,11 @@ header nav ul li a:hover {
     text-align: center;
     scroll-margin-top: 3.8em;
 }
-
+.card:hover {
+    transform:scale(0.9);
+    transition:all .5s ease-in-out;
+    
+  }
 .card-group{
     background-color: #f8f9fa;
 }
