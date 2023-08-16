@@ -30,7 +30,7 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15px 20px;
+    padding: 10px 15px;
 }
 
 .contenedor-header header .logo {
@@ -53,6 +53,7 @@ html {
 .contenedor-header header ul {
     display: flex;
     list-style: none;
+
 }
 
 .contenedor-header header nav ul li a {
