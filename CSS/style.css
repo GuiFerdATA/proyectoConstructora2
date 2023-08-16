@@ -258,6 +258,7 @@ header nav ul li a:hover {
 }
 
 .contacto h2 {
+    text-decoration: underline dashed rgb(237, 205, 31) 13px;
     font-size: 48px;
     letter-spacing: 0.05em;
     line-height: 1.5;
@@ -332,8 +333,8 @@ background-color:#1E2D3B;
     margin-right: 20px;
 }
 
-/*---------- FOOTER -------------*/
-/* FOOTER */
+
+/* ----------FOOTER ------------*/
 footer {
     background-color:#1E2D3B;
     color: #fff;
@@ -348,7 +349,6 @@ footer {
 
 footer .redes {
     margin-bottom: 10px;
-
 }
 
 footer .redes a {
@@ -386,6 +386,7 @@ footer .arriba {
 
 /* ------------ MEDIA QUERYS ---------------- */
 @media screen and (max-width: 998px) {
+    /*SECCION NAV*/
     nav {
         display: none;
     }
@@ -426,7 +427,6 @@ footer .arriba {
         color: rgb(225, 225, 225);
         font-size: 30px;
         letter-spacing: 0.05em;
-
     }
 
     .contenedor_titulo {
@@ -442,7 +442,8 @@ footer .arriba {
     .contenedor-img img {
         width: 80%;
     }
-    /*seccion contacto*/
+
+    /*SECCION CONTACTO*/
     .contacto .fila {
         display: block;
     }
