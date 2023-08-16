@@ -443,6 +443,16 @@ footer .arriba {
         width: 80%;
     }
 
+    /*SECCION NOSOTROS*/
+    .contenido-nosotros h5 {
+        font-size: 40px;
+    }
+    .contenido-nosotros {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width:70%;
+
     /*SECCION CONTACTO*/
     .contacto .fila {
         display: block;
@@ -469,5 +479,10 @@ footer .arriba {
         width: 300px;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+    /*IMAGENES SECCION PROYECTOS GALERIA AUTONATICA*/
+    .d-block{
+        width: auto;
+        height:200px;
     }
 }
