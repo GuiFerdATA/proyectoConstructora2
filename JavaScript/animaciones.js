@@ -1,13 +1,13 @@
 window.sr =ScrollReveal();
 
     sr.reveal('.title-inicio', {
-        duration: 1700,
+        duration: 2000,
         origin:'right',
         distance: '-100px',
     });
     sr.reveal('.contenedor-header', {
-        duration: 2000,
-        origin:'left',
+        duration: 1700,
+        origin:'bottom',
         distance: '-100px',
     });
     sr.reveal('.contenido-nosotros', {
@@ -16,8 +16,8 @@ window.sr =ScrollReveal();
         distance: '-100px',
     });
     sr.reveal('.animationtitle', {
-        duration: 2100,
-        origin:'left',
+        duration: 3000,
+        origin:'right',
         distance: '-20px',
     });
     sr.reveal('.titleAnimado', {
