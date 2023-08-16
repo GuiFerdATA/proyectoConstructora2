@@ -122,17 +122,17 @@ header nav ul li a:hover {
     text-decoration: none;
 }
 
-
-
 .title-inicio a {
     color: rgb(237, 205, 31);
     margin-top: 30px;
 }
 
+
+
 /*SECCION SERVICIOS*/
 .contenedor_card{
     position: relative;
-    min-height: 79vh;
+    min-height: 83vh;
     background-color: #f8f9fa;
     padding: 20px;
     text-align: center;
@@ -157,8 +157,9 @@ header nav ul li a:hover {
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 40px;
+    scroll-margin-top: 3.8em;
 }
 
 
@@ -187,7 +188,7 @@ header nav ul li a:hover {
     line-height: 1.5;
     text-decoration: none;
     background-color: #1E2D3B;
-    margin-top: 60px;
+    margin-top: 50px;
     border-radius: 20px;
 }
 
@@ -195,9 +196,9 @@ header nav ul li a:hover {
     font-size: 50px;
     background-color: rgb(250, 213, 2);
     color: #1E2D3B;
-    padding: 5px;
     opacity: 0.9;
-    margin-top: 30px;
+    margin-top: 14px;
+    border-radius: 20px;
 }
 
 .contenido-nosotros p {
@@ -240,11 +241,11 @@ header nav ul li a:hover {
     justify-content: center;
 }
 
-
-
+/*GALERIA PROYECTOS*/
 .titleGaleria{
     color:#1E2D3B;
     letter-spacing: 0.05em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 

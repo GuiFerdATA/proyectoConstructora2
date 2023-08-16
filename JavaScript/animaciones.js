@@ -6,7 +6,7 @@ window.sr =ScrollReveal();
         distance: '-100px',
     });
     sr.reveal('.contenedor-header', {
-        duration: 1700,
+        duration: 2000,
         origin:'bottom',
         distance: '-100px',
     });
@@ -20,8 +20,9 @@ window.sr =ScrollReveal();
         origin:'top',
         distance: '-20px',
     });
-
-    (document).on('click', '[data-toggle="lightbox"]', function(event) {
-        event.preventDefault();
-        $(this).ekkoLightbox({alwaysShowClose: true});
+    sr.reveal('.titleAnimado', {
+        duration: 3000,
+        origin:'left',
+        distance: '-20px',
     });
+
