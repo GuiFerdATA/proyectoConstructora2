@@ -140,7 +140,6 @@ header nav ul li a:hover {
 }
 
 .card-group{
-    padding: 0px;
     background-color: #f8f9fa;
 
 }
@@ -171,7 +170,7 @@ header nav ul li a:hover {
     background-image: url('../IMG/building-2762319_1920-min-1920x960.jpg');
     background-attachment: fixed;
     background-size: cover;
-    height:92%;
+   min-height:100%;
     position: absolute;
     scroll-margin-top: 3.8em;
 
@@ -196,7 +195,7 @@ header nav ul li a:hover {
     font-size: 50px;
     background-color: rgb(250, 213, 2);
     color: #1E2D3B;
-    opacity: 0.9;
+    opacity: 0.8;
     margin-top: 14px;
     border-radius: 20px;
 }
@@ -211,7 +210,6 @@ header nav ul li a:hover {
 /*CONTENIDO PROYECTOS*/
 .contenedor_proyectos{
    background-color:#ffffff;
-    height:133%;
     position: absolute;
     margin-top: 900px;
     width: 100%;

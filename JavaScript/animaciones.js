@@ -16,8 +16,8 @@ window.sr =ScrollReveal();
         distance: '-100px',
     });
     sr.reveal('.animationtitle', {
-        duration: 1700,
-        origin:'top',
+        duration: 2100,
+        origin:'left',
         distance: '-20px',
     });
     sr.reveal('.titleAnimado', {
