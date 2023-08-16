@@ -172,6 +172,7 @@ header nav ul li a:hover {
     background-size: cover;
     height:92%;
     position: absolute;
+    scroll-margin-top: 3.8em;
 
 }
 
@@ -194,7 +195,6 @@ header nav ul li a:hover {
 .contenido-nosotros h5 {
     font-size: 50px;
     background-color: rgb(250, 213, 2);
-    margin: 20px;
     color: #1E2D3B;
     padding: 15px;
 }
@@ -211,7 +211,7 @@ header nav ul li a:hover {
    background-color:#ffffff;
     height:92%;
     position: absolute;
-    margin-top: 1000px;
+    margin-top: 900px;
     width: 100%;
     text-align: center;
     justify-content: center;
@@ -235,13 +235,10 @@ header nav ul li a:hover {
 .contenidoProyectosCard{
     position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.carousel-inner{
 
+    justify-content: center;
 }
+
 
 
 /* MEDIA QUERYS */
