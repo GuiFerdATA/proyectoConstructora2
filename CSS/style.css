@@ -415,10 +415,10 @@ footer .arriba {
     nav.responsive {
         display: block;
         position: absolute;
-        right: 0;
-        top: 75px;
-        background-color: #252A2E;
-        width: 180px;
+        right: 60px;
+        top: 95px;
+        background-color:#1E2D3B;
+        width: 200px;        
     }
 
     nav.responsive ul {
@@ -426,8 +426,8 @@ footer .arriba {
     }
 
     nav.responsive ul li {
-        border-bottom: 1px solid #ffffff;
-        padding: 10px 0;
+       
+        padding: 10px;
     }
 
     /*SECCION INICIO*/
