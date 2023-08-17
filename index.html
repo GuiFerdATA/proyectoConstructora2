@@ -27,11 +27,11 @@
       </div>
       <nav id="nav">
         <ul>
-          <li><a href="#inicio" class="active">INICIO</a></li>
-          <li><a href="#servicios">SERVICIOS</a></li>
-          <li><a href="#nosotros">NOSOTROS</a></li>
-          <li><a href="#proyectos">PROYECTOS</a></li>
-          <li><a href="#contacto">CONTACTO</a></li>
+          <li><a href="#inicio" class="active" onclick="seleccionar()">INICIO</a></li>
+          <li><a href="#servicios" onclick="seleccionar()">SERVICIOS</a></li>
+          <li><a href="#nosotros" onclick="seleccionar()">NOSOTROS</a></li>
+          <li><a href="#proyectos" onclick="seleccionar()">PROYECTOS</a></li>
+          <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
         </ul>
       </nav>
       <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -191,55 +191,56 @@
   <!-- CONTENIDO CONTACTO -->
   <section id="contacto" class="contacto">
     <div class="contenido-seccion">
-        <h2 class="titleAnimado">CONTACTO</h2>
-        <div class="fila">
-            <!-- FORMULARIO -->
-            <form action="./form.php" method="POST" class="col">
-                <input type="text" name="nombre" placeholder="Tu Nombre">
-                <input type="number" name="telefono" placeholder="Número telefónico">
-                <input type="email" name="email" placeholder="Dirección de correo">
-                <input type="text" name="asunto" placeholder="Asunto">
-                <textarea name="textarea" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                <button>
-                    Enviar Mensaje<i class="fa-sharp fa-solid fa-paper-plane"></i>
-                    <span class="overlay"></span>
-                </button>
-            </form>
-            <!-- mapa -->
-            <div class="col">
-                <img src="./IMG/Ubicacion.png" alt="">
-                <div class="info">
-                    <ul>
-                        <li>
-                            <i class="fa-sharp fa-solid fa-location-dot"></i>
-                            Argentina, Buenos Aires, Tandil
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-mobile-screen"></i>
-                            Teléfono: +54 2494 582940
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-envelope"></i>
-                            guille.fer79@hotmail.com
-                        </li>
-                    </ul>
-                </div>
-            </div>
+      <h2 class="titleAnimado">CONTACTO</h2>
+      <div class="fila">
+        <!-- FORMULARIO -->
+        <form action="./form.php" method="POST" class="col">
+          <input type="text" name="nombre" placeholder="Tu Nombre">
+          <input type="number" name="telefono" placeholder="Número telefónico">
+          <input type="email" name="email" placeholder="Dirección de correo">
+          <input type="text" name="asunto" placeholder="Asunto">
+          <textarea name="textarea" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+          <button>
+            Enviar Mensaje<i class="fa-sharp fa-solid fa-paper-plane"></i>
+            <span class="overlay"></span>
+          </button>
+        </form>
+        <!-- mapa -->
+        <div class="col">
+          <img src="./IMG/Ubicacion.png" alt="">
+          <div class="info">
+            <ul>
+              <li>
+                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                Argentina, Buenos Aires, Tandil
+              </li>
+              <li>
+                <i class="fa-solid fa-mobile-screen"></i>
+                Teléfono: +54 2494 582940
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                guille.fer79@hotmail.com
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </div>
-</section>
- <!-- FOOTER -->
- <footer>
-  <a href="#" class="arriba">
+  </section>
+  <!-- FOOTER -->
+  <footer>
+    <a href="#" class="arriba">
       <i class="fa-solid fa-angles-up"></i>
-  </a>
-  <div class="redes">
+    </a>
+    <div class="redes">
       <a href="https://www.facebook.com/guille.fernandez.9847"><i class="fa-brands fa-facebook-f"></i></a>
       <a href="https://twitter.com/dATA_fg"><i class="fa-brands fa-twitter"></i></a>
-      <a href="https://www.linkedin.com/in/guillermo-fern%C3%A1ndez-861142228/"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://www.linkedin.com/in/guillermo-fern%C3%A1ndez-861142228/"><i
+          class="fa-brands fa-linkedin-in"></i></a>
       <a href="https://www.instagram.com/guille.fer79/"><i class="fa-brands fa-instagram"></i></a>
-  </div>
-</footer>
+    </div>
+  </footer>
 
 
 
@@ -251,4 +252,5 @@
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
 </body>
+
 </html>
