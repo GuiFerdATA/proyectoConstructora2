@@ -129,7 +129,7 @@ header nav ul li a:hover {
 
 
 /*-------------------- SECCION SERVICIOS ---------------------*/
-.contenedor_card{
+.contenedor_card {
     position: relative;
     min-height: 83vh;
     background-color: #f8f9fa;
@@ -137,23 +137,25 @@ header nav ul li a:hover {
     text-align: center;
     scroll-margin-top: 3.8em;
 }
+
 .card:hover {
-    transform:scale(0.9);
-    transition:all .5s ease-in-out;
-    
-  }
-.card-group{
+    transform: scale(1.025);
+    transition: all .3s ease-in-out;
+
+}
+
+.card-group {
     background-color: #f8f9fa;
 }
 
-.card{
+.card {
     margin: 10px;
 }
 
-.contenedor_card h2{
+.contenedor_card h2 {
     text-decoration: underline dashed rgb(237, 205, 31) 13px;
-    background-color:#f8f9fa;
-    color:#1E2D3B;
+    background-color: #f8f9fa;
+    color: #1E2D3B;
     font-size: 60px;
     display: flex;
     text-align: center;
@@ -169,9 +171,18 @@ header nav ul li a:hover {
     background-image: url('../IMG/building-2762319_1920-min-1920x960.jpg');
     background-attachment: fixed;
     background-size: cover;
-   min-height:100%;
+    min-height: 100%;
     position: absolute;
     scroll-margin-top: 3.8em;
+}
+.capa_nosotros{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1E2D3B;
+    opacity: 0.3;
 }
 
 .contenido-nosotros {
@@ -193,7 +204,6 @@ header nav ul li a:hover {
     font-size: 50px;
     background-color: rgb(250, 213, 2);
     color: #1E2D3B;
-    opacity: 0.8;
     margin-top: 14px;
     border-radius: 20px;
 }
@@ -206,31 +216,32 @@ header nav ul li a:hover {
 
 
 /*--------------- CONTENIDO PROYECTOS --------------*/
-.contenedor_proyectos{
-   background-color:#ffffff;
+.contenedor_proyectos {
+    background-color: #ffffff;
     position: absolute;
     margin-top: 900px;
     width: 100%;
     text-align: center;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
     scroll-margin-top: 3.8em;
 }
 
-.contenido-proyectos h5{
+.contenido-proyectos h5 {
     font-size: 60px;
-    color:#1E2D3B;
+    color: #1E2D3B;
     text-decoration: underline dashed rgb(237, 205, 31) 13px;
     opacity: 0.8;
     margin: 20px;
     padding: 15px;
 }
-.contenido-proyectos p{
+
+.contenido-proyectos p {
     font-size: 19px;
     letter-spacing: 0.05em;
 }
 
-.contenidoProyectosCard{
+.contenidoProyectosCard {
     position: relative;
     display: flex;
     justify-content: center;
@@ -238,18 +249,18 @@ header nav ul li a:hover {
 
 
 /*---- GALERIA PROYECTOS --*/
-.titleGaleria{
-    color:#1E2D3B;
+.titleGaleria {
+    color: #1E2D3B;
     letter-spacing: 0.05em;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
 /* -----------SECCION CONTACTO ----------------*/
 .contacto {
     background-image: url(../IMG/fondo-img-contacto.png);
-    background-color:#f8f9fa;
-    color:#1E2D3B;
+    background-color: #f8f9fa;
+    color: #1E2D3B;
     padding: 50px 0;
     position: absolute;
     margin-top: 2300px;
@@ -289,8 +300,8 @@ header nav ul li a:hover {
     padding: 18px;
     border: none;
     margin-bottom: 20px;
-    background-color:#fff;
-    color:#1E2D3B;
+    background-color: #fff;
+    color: #1E2D3B;
     font-size: 18px;
     letter-spacing: 0.05em;
     line-height: 1.5;
@@ -298,14 +309,14 @@ header nav ul li a:hover {
 
 .contacto button {
     cursor: pointer;
-background-color:#1E2D3B;
+    background-color: #1E2D3B;
     border: 2px solid #ffffff;
     width: 350px;
     display: block;
     margin: 0px auto;
     padding: 10px 22px;
     font-size: 16px;
-    color:#ffffff;
+    color: #ffffff;
     position: relative;
     z-index: 10;
 }
@@ -317,7 +328,7 @@ background-color:#1E2D3B;
 .contacto .col .info {
     position: absolute;
     top: 20%;
-    background-color:#ffffff;
+    background-color: #ffffff;
     padding: 20px;
     width: 350px;
     left: 50%;
@@ -341,7 +352,7 @@ background-color:#1E2D3B;
 
 /* ----------FOOTER ------------*/
 footer {
-    background-color:#1E2D3B;
+    background-color: #1E2D3B;
     color: #fff;
     padding: 50px 0 30px 0;
     text-align: center;
@@ -357,7 +368,7 @@ footer .redes {
 }
 
 footer .redes a {
-    color:#ffffff;
+    color: #ffffff;
     display: inline-block;
     text-decoration: none;
     border: 1px solid rgb(237, 205, 31);
@@ -374,9 +385,9 @@ footer .arriba {
     display: block;
     width: 50px;
     height: 50px;
-    background-color:#1E2D3B;
+    background-color: #1E2D3B;
     border: 1px solid rgb(237, 205, 31);
-    color:#fff;
+    color: #fff;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -391,6 +402,7 @@ footer .arriba {
 
 /* ------------ MEDIA QUERYS ---------------- */
 @media screen and (max-width: 998px) {
+
     /*SECCION NAV*/
     nav {
         display: none;
@@ -452,12 +464,14 @@ footer .arriba {
     .contenido-nosotros h5 {
         font-size: 40px;
     }
+
     .contenido-nosotros {
         display: flex;
         flex-direction: column;
         text-align: center;
-        width:70%;
+        width: 70%;
     }
+
     /*SECCION CONTACTO*/
     .contacto .fila {
         display: block;
@@ -485,9 +499,10 @@ footer .arriba {
         left: 50%;
         transform: translate(-50%, -50%);
     }
+
     /*IMAGENES SECCION PROYECTOS GALERIA AUTONATICA*/
-    .d-block{
+    .d-block {
         width: auto;
-        height:200px;
+        height: 200px;
     }
 }
