@@ -12,17 +12,17 @@ window.sr =ScrollReveal();
     });
     sr.reveal('.contenido-nosotros', {
         duration: 1700,
-        origin:'right',
-        distance: '-100px',
+        origin:'top',
+        distance: '-50px',
     });
     sr.reveal('.animationtitle', {
         duration: 3000,
-        origin:'right',
+        origin:'top',
         distance: '-20px',
     });
     sr.reveal('.titleAnimado', {
         duration: 2500,
-        origin:'left',
+        origin:'bottom',
         distance: '-20px',
     });
 
