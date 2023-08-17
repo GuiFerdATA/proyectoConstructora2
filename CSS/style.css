@@ -190,9 +190,9 @@ header nav ul li a:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 45%;
+    width: 40%;
     margin: auto;
-    font-size: 40px;
+    font-size: 10px;
     letter-spacing: 0.05em;
     line-height: 1.5;
     text-decoration: none;
@@ -255,8 +255,14 @@ header nav ul li a:hover {
     letter-spacing: 0.05em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-
+.container{
+    margin-bottom: 500px;
+}
+.img-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* -----------SECCION CONTACTO ----------------*/
 .contacto {
     background-image: url(../IMG/fondo-img-contacto.png);
@@ -497,7 +503,6 @@ footer .arriba {
         top: 50%;
         padding: 10px;
         width: 300px;
-        left: 50%; translate(-50%, -50%);
     }
     .contacto button {
         width: 300px;
@@ -507,6 +512,9 @@ footer .arriba {
     .d-block {
         width: auto;
         height: 200px;
+    }
+    .container{
+        margin-bottom: 400px;
     }
     footer {
         margin-top: 3550px;
@@ -552,6 +560,7 @@ footer .arriba {
     .contacto{
         margin-top: 2100px;
     }
+
     footer {
         margin-top: 3370px;
     }
