@@ -28,7 +28,7 @@ html {
 .contenedor-header header {
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
 }
@@ -287,7 +287,7 @@ header nav ul li a:hover {
     line-height: 1.5;
     text-align: center;
     padding: 20px 0;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .contacto .fila {
@@ -423,10 +423,11 @@ footer .arriba {
     nav.responsive {
         display: block;
         position: absolute;
-        right: 60px;
+        right: 0px;
         top: 95px;
         background-color: #1E2D3B;
         width: 200px;
+
     }
 
     nav.responsive ul {
@@ -532,7 +533,7 @@ footer .arriba {
     nav.responsive {
         display: block;
         position: absolute;
-        right: 10px;
+        right: 0px;
         top: 96px;
         background-color: #1E2D3B;
         width: 200px;
@@ -559,6 +560,9 @@ footer .arriba {
     }
     .contacto{
         margin-top: 2100px;
+    }
+    .contacto h2{
+        margin-top: 35px;
     }
 
     footer {
