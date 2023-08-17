@@ -193,12 +193,11 @@ header nav ul li a:hover {
     text-align: center;
     width: 40%;
     margin: auto;
-    font-size: 10px;
     letter-spacing: 0.05em;
     line-height: 1.5;
     text-decoration: none;
     background-color: #1E2D3B;
-    margin-top: 50px;
+    margin-top: 36px;
     border-radius: 20px;
 }
 
@@ -213,7 +212,7 @@ header nav ul li a:hover {
 .contenido-nosotros p {
     color: #ffffff;
     font-size: 30px;
-    margin: 20px;
+    margin: 0px;
 }
 
 
@@ -221,7 +220,7 @@ header nav ul li a:hover {
 .contenedor_proyectos {
     background-color: #ffffff;
     position: absolute;
-    margin-top: 880px;
+    margin-top: 700px;
     width: 100%;
     text-align: center;
     justify-content: center;
@@ -461,7 +460,7 @@ footer .arriba {
     }
 
     .contenedor_card {
-        background-color: #ffffff;
+        background-color: #f8f9fa;
         display: flex;
         flex-direction: column;
     }
@@ -549,7 +548,8 @@ footer .arriba {
         width: 80%;
     }
     .contenido-nosotros p{
-        font-size: 20px;
+        font-size: 26px;
+        padding: 3px;
     }
     .contenido-proyectos h5 {
         font-size: 40px;
