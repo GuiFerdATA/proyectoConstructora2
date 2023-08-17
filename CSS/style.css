@@ -175,7 +175,8 @@ header nav ul li a:hover {
     position: absolute;
     scroll-margin-top: 3.8em;
 }
-.capa_nosotros{
+
+.capa_nosotros {
     position: absolute;
     top: 0;
     left: 0;
@@ -402,6 +403,7 @@ footer .arriba {
 
 /* ------------ MEDIA QUERYS ---------------- */
 @media screen and (max-width: 998px) {
+    
 
     /*SECCION NAV*/
     nav {
@@ -417,8 +419,8 @@ footer .arriba {
         position: absolute;
         right: 60px;
         top: 95px;
-        background-color:#1E2D3B;
-        width: 200px;        
+        background-color: #1E2D3B;
+        width: 200px;
     }
 
     nav.responsive ul {
@@ -426,9 +428,9 @@ footer .arriba {
     }
 
     nav.responsive ul li {
-       
         padding: 10px;
     }
+
 
     /*SECCION INICIO*/
     .title-inicio {
@@ -443,7 +445,7 @@ footer .arriba {
         z-index: 2;
         color: rgb(225, 225, 225);
         font-size: 30px;
-        letter-spacing: 0.05em;
+    
     }
 
     .contenedor_titulo {
@@ -493,11 +495,12 @@ footer .arriba {
     .contacto .col .info {
         position: absolute;
         top: 50%;
-        background-color: #3f4042;
-        padding: 20px;
+        padding: 10px;
         width: 300px;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        left: 50%; translate(-50%, -50%);
+    }
+    .contacto button {
+        width: 300px;
     }
 
     /*IMAGENES SECCION PROYECTOS GALERIA AUTONATICA*/
@@ -505,4 +508,57 @@ footer .arriba {
         width: auto;
         height: 200px;
     }
+    footer {
+        margin-top: 3550px;
+    }
 }
+
+@media screen and (max-width: 439px) {
+    .contenedor-header header .logo {
+        padding: 10px;
+    }
+    
+    .contenedor-header header .logo a {
+        font-size: 20px;
+    }
+    nav.responsive {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 96px;
+        background-color: #1E2D3B;
+        width: 200px;
+    }
+    .contenedor_card h2 {
+        font-size: 40px;
+    }
+    .contenido-nosotros h5 {
+        font-size: 40px;
+    }
+    .contenido-nosotros {
+        width: 80%;
+    }
+    .contenido-nosotros p{
+        font-size: 20px;
+    }
+    .contenido-proyectos h5 {
+        font-size: 40px;
+    }
+    /*IMAGENES SECCION PROYECTOS GALERIA AUTONATICA*/
+    .d-block {
+        width: auto;
+        height: 140px;
+    }
+    .contacto{
+        margin-top: 2100px;
+    }
+    footer {
+        margin-top: 3370px;
+    }
+    .contacto button {
+        width: 300px;
+    }
+}
+
+
+
