@@ -220,7 +220,7 @@ header nav ul li a:hover {
 .contenedor_proyectos {
     background-color: #ffffff;
     position: absolute;
-    margin-top: 900px;
+    margin-top: 880px;
     width: 100%;
     text-align: center;
     justify-content: center;
@@ -265,7 +265,7 @@ header nav ul li a:hover {
 }
 /* -----------SECCION CONTACTO ----------------*/
 .contacto {
-    background-image: url(../IMG/fondo-img-contacto.png);
+
     background-color: #f8f9fa;
     color: #1E2D3B;
     padding: 50px 0;
