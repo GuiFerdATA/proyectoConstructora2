@@ -138,12 +138,6 @@ header nav ul li a:hover {
     scroll-margin-top: 3.8em;
 }
 
-.card:hover {
-    transform: scale(1.025);
-    transition: all .3s ease-in-out;
-
-}
-
 .card-group {
     background-color: #f8f9fa;
 }
@@ -151,6 +145,10 @@ header nav ul li a:hover {
 .card {
     margin: 10px;
     padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05)
 }
 
 .contenedor_card h2 {
@@ -211,7 +209,7 @@ header nav ul li a:hover {
 
 .contenido-nosotros p {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 24.6px;
     margin: 0px;
 }
 
@@ -480,7 +478,9 @@ footer .arriba {
         text-align: center;
         width: 70%;
     }
-
+    .contenido-nosotros p{
+        font-size: 21.6px;
+    }
     /*SECCION CONTACTO*/
     .contacto .fila {
         display: block;
@@ -548,7 +548,7 @@ footer .arriba {
         width: 80%;
     }
     .contenido-nosotros p{
-        font-size: 26px;
+        font-size: 19px;
         padding: 3px;
     }
     .contenido-proyectos h5 {
