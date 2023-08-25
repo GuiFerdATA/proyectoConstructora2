@@ -297,6 +297,9 @@ header nav ul li a:hover {
     padding: 10px;
     position: relative;
 }
+.contacto .col textarea{
+    resize: none;
+}
 
 .contacto .col input,
 .contacto .col textarea {
